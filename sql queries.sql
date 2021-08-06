@@ -10,7 +10,6 @@ CREATE TABLE attr_states (
   WORKSITE_STATE_FULL VARCHAR(50) NOT NULL,
   CONSTRAINT pk_state PRIMARY KEY(WORKSITE_STATE_FULL)
 );
-LeanColisko/
 
 DROP TABLE IF EXISTS attr_soc_names;
 CREATE TABLE attr_soc_names (
